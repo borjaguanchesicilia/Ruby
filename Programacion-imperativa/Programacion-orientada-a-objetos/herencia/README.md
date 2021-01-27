@@ -28,9 +28,9 @@
 	
 	* ***Método privado:*** Son visibles solo para la clase, y no son invocables desde fuera de la clase. Están precedidos por la palabra reservada *private*.
 	
-	* ***Método protegido:*** Son visibles para la jerarquía de la clase, y son invocables desde la propia clase, desde las clases hijas o desde el fichero donde se definió la clase y el método. Están precedidos por la palabra reservada *protected*.
+	* ***Método protegido:*** Son visibles para la jerarquía de la clase, y son invocables desde la propia clase y desde las clases hijas. Están precedidos por la palabra reservada *protected*.
 
-* ***RECOMENDACIÓN: Definir los métodos en las clases sin indicar de qué tipo son, y al final del fichero se especifican de qué tipo son, de la siguiente manera:***
+* ***RECOMENDACIÓN: Definir los métodos en las clases sin indicar de qué tipo son, y al final de la clase se especifican de qué tipo son, de la siguiente manera:***
 
 	* ***public*** :metodo1, :metodo2
 	
