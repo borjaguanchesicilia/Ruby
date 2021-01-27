@@ -7,12 +7,12 @@
 * Existen dos tipos de herencia:
 
 	* ***Herencia simple:*** Donde cada una de las clases hijas solo tiene una clase madre. Cada clases hijas especializa a la clase madre.
-
-![Herencia simple][herenciaS] 
-
-	* ***Herencia múltiple:*** Donde se tienen varias clases maders, y lo que se busca es una clase hija que agrupe todas las características que tienen sus clases madres.
 	
-![Herencia multiple][herenciaM] 
+    ![Herencia simple][herenciaS] 
+
+     * ***Herencia múltiple:*** Donde se tienen varias clases maders, y lo que se busca es una clase hija que agrupe todas las características que tienen sus clases madres. 
+     
+     ![Herencia multiple][herenciaM] 
 
 * Ruby no tiene implementada la funcionalidad de *herencia múltiple*, sin embrgo nos ofrece mecanismos pra poder simularla.
 
