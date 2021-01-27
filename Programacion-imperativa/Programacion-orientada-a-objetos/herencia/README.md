@@ -4,6 +4,10 @@
 
 ![Herencia][herencia] 
 
+* La jerarquía de clases que tiene Ruby es la siguiente:
+
+![Jerarquia][jerarquia]
+
 * Existen dos tipos de herencia:
 
 	* ***Herencia simple:*** Donde cada una de las clases hijas solo tiene una clase madre. Cada clases hijas especializa a la clase madre.
@@ -14,9 +18,13 @@
      
      ![Herencia multiple][herenciaM] 
 
-* Ruby no tiene implementada la funcionalidad de *herencia múltiple*, sin embrgo nos ofrece mecanismos pra poder simularla.
+* ***NOTA: Ruby no tiene implementada la funcionalidad de *herencia múltiple*, sin embrgo nos ofrece mecanismos para poder simularla.***
+
+* Para ello utiliza el módulo *Mixin*.
+
 
 
 [herencia]: material/HERENCIA.jpg "Herencia"
-[herenciaS]: material/HERENCIASIMPLE.jpg "Herencia Simple"
-[herenciaM]: material/HERENCIAMULTIPLE.jpg "Herencia Multiple"
+[jerarquia]: material/JERARQUIA.jpg "Jerarquia"
+[herenciaS]: material/HERENCIA_SIMPLE.jpg "Herencia Simple"
+[herenciaM]: material/HERENCIA_MULTIPLE.jpg "Herencia Multiple"
