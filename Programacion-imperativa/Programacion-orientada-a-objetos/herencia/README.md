@@ -18,5 +18,5 @@
 
 
 [herencia]: material/HERENCIA.jpg "Herencia"
-[herenciaS]: material/HERENCIA_SIMPLE.jpg "Herencia Simple"
-[herenciaM]: material/HERENCIA_MULTIPLE.jpg "Herencia Multiple"
+[herenciaS]: material/HERENCIASIMPLE.jpg "Herencia Simple"
+[herenciaM]: material/HERENCIAMULTIPLE.jpg "Herencia Multiple"
