@@ -20,9 +20,9 @@
 
 * ***NOTA: Ruby no tiene implementada la funcionalidad de *herencia múltiple*, sin embrgo nos ofrece mecanismos para poder simularla.***
 
-* Para ello utiliza el módulo *Mixin*.
+	* Para ello utiliza el módulo *Mixin*.
 
-* Hay que tener en cuenta la visibilidad que tienen los métodos que se heredan. De acuerdo a esto, Ruby nos ofrece 3 tipos de métodos:
+* Hay que tener en cuenta la visibilidad que tienen los métodos que se utilizan y se heredan. De acuerdo a esto, Ruby nos ofrece 3 tipos de métodos:
 
 	* ***Método público:*** Son visibles para todos, e invocables desde fuera de la clase.
 	
@@ -30,11 +30,13 @@
 	
 	* ***Método protegido:*** Son visibles para la jerarquía de la clase, y son invocables desde la propia clase, desde las clases hijas o desde el fichero donde se definió la clase y el método. Están precedidos por la palabra reservada *protected*.
 
-* ***RECOMENDACIÓN: Definir los métodos en las clases sin indicar de qué tipo son, y al final del fichero se especifican los métodos publicos y privados de la siguiente manera:***
+* ***RECOMENDACIÓN: Definir los métodos en las clases sin indicar de qué tipo son, y al final del fichero se especifican de qué tipo son, de la siguiente manera:***
 
 	* ***private*** :metodo1, :metodo2
 	
-	* ***protected*** :metodo3, metodo4
+	* ***private*** :metodo3, :metodo4
+	
+	* ***protected*** :metodo5, metodo6
 
 
 [herencia]: material/HERENCIA.jpg "Herencia"
