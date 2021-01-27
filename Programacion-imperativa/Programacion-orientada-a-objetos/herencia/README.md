@@ -32,7 +32,7 @@
 
 * ***RECOMENDACIÓN: Definir los métodos en las clases sin indicar de qué tipo son, y al final del fichero se especifican de qué tipo son, de la siguiente manera:***
 
-	* ***private*** :metodo1, :metodo2
+	* ***public*** :metodo1, :metodo2
 	
 	* ***private*** :metodo3, :metodo4
 	
