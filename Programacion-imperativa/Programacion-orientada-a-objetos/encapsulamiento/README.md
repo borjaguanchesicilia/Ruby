@@ -21,6 +21,6 @@
 
 	* ***attr_writter:*** Se corresponde con lo  que denominamos *método setter*.
 
-	* ***attr_writter:*** Se corresponde con la mezcla de los *métodos setters* y *métodos getters*.
+	* ***attr_accessor:*** Se corresponde con la unión de los *métodos setters* y *métodos getters*.
 	 
-* ***NOTA: Para no romper el  encapsulamiento, no deberos utilizar el attr_writter ni el attr_writter, dado que se estarían modificando los datos del objeto.***
+* ***NOTA: Para no romper el  encapsulamiento, no deberos utilizar el attr_writter ni el attr_accessor, dado que se estarían modificando los datos del objeto.***
