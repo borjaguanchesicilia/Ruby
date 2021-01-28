@@ -1,0 +1,8 @@
+task :default => :tu
+
+desc "Pruebas de la clase Racionales"
+
+task :tu do
+
+  sh "ruby -I. test/tc_racionales.rb"
+end
