@@ -8,4 +8,10 @@ class Racionales
     @num = num
     @den = den
   end
+
+
+  def to_s
+
+    "#{@num}/#{@den}"
+  end
 end

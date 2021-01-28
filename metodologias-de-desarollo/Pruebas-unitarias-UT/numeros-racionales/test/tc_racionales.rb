@@ -14,5 +14,6 @@ class TestRacionaes < Test::Unit::TestCase
 
     assert(Racionales.new(1, 5))
     assert(@r1)
+    assert_equal("1/2", @r1.to_s)
   end
 end
