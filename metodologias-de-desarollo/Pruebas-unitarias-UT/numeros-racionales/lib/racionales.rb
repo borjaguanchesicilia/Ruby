@@ -38,4 +38,13 @@ class Racionales
 
     Racionales.new(num_r, den_r)
   end
+
+
+  def *(other)
+
+    num_r = @num * other.num
+    den_r = @den * other.den
+
+    Racionales.new(num_r, den_r)
+  end
 end
