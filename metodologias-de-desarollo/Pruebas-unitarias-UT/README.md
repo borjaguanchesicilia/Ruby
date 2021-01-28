@@ -17,3 +17,7 @@
 	* Probar funcionalidad (TEST).
 	 
 	* Confirmar (COMMIT).
+
+* Para comprobar que el test es correcto en Ruby, utilizamos la herramienta Rake:
+	
+	* ***Rake:*** Herramienta que lanza las pruebas automaticamente, en lugar de hacerlo manualmete. Se ejecuta rake en la línea de comanos.
