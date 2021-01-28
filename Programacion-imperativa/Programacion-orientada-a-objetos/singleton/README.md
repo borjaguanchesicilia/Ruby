@@ -4,13 +4,13 @@
 
 * Para definir un método que sólo está disponible para un objeto, Ruby crea una nueva clase que es anónima, denominada Singleton Class o Eigenclass. Esta nueva clase se situa entre el  objeto y la clase de ese objeto (*objeto Frutas* -> *Eigenclass* -> *clase Frutas*).
 
-![Esquema 1][Esquema1]
+	![Esquema 1][Esquema1]
 
 * En Ruby como en otros lenguajes, hay un objeto (variable) predefinoo que simepre indica cuál es el objeto activo (***self***).
 
 * Hay que tener en cuenta que los métodos singleton asociados a un objeto se van a almacenar en la Eigenclass, sin embargo, los métodos de clase, también son métodos singlenton, pero de la propia clase, y éstos se almacenan en un clase anónima asociada a la clase.
 
-![Esquema 2][Esquema2]
+	![Esquema 2][Esquema2]
 
 * El proceso de búsqueda de un método es el  siguiente:
 
