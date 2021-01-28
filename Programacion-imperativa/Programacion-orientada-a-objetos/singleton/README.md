@@ -21,5 +21,5 @@
 	* Si no está, ***Self*** se sitúa en la *superclase del objeto*.
 	* Si no está, se repite todo el proceso pero buscando el método method_missing.
 
-[Esquema1]: Material/1.jpg "Esquema 1"
-[Esquema2]: Material/2.jpg "Esquema 2"
+[Esquema1]: Material/1.jpeg "Esquema 1"
+[Esquema2]: Material/2.jpeg "Esquema 2"
