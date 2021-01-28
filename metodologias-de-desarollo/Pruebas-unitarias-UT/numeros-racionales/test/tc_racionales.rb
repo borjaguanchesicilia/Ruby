@@ -22,5 +22,6 @@ class TestRacionaes < Test::Unit::TestCase
     assert_equal("10/8", (@r1 + @r2).to_s)
     assert_equal("2/8", (@r2 - @r1).to_s)
     assert_equal("3/8", (@r2 * @r1).to_s)
+    assert_equal("6/4", (@r2 / @r1).to_s)
   end
 end
