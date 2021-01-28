@@ -2,7 +2,7 @@
 
 * Se trata de un método que sólo está disponible para un objeto.
 
-* Para definir un método que sólo está disponible para un objeto, Ruby crea una nueva clase que es anónima, denominada Singleton Class o Eigenclass. Esta nueva clase se situa entre el  objeto y la clase de ese objeto (*objeto Frutas* -> *Eigenclass* -> *clase Frutas*).
+* Para definir un método que sólo está disponible para un objeto, Ruby crea una nueva clase que es anónima, denominada Singleton Class o Eigenclass. Esta nueva clase se situa entre el  objeto y la clase de ese objeto (*objeto Point (p)* -> *Eigenclass* -> *clase Point*).
 
 	![Esquema 1][Esquema1]
 
