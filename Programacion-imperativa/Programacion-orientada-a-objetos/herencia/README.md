@@ -39,7 +39,7 @@
 	* ***protected*** :metodo5, metodo6
 
 
-[herencia]: material/HERENCIA.jpg "Herencia"
-[jerarquia]: material/JERARQUIA.jpg "Jerarquia"
-[herenciaS]: material/HERENCIASIMPLE.jpg "Herencia Simple"
-[herenciaM]: material/HERENCIAMULTIPLE.jpg "Herencia Multiple"
+[herencia]: Material/HERENCIA.jpg "Herencia"
+[jerarquia]: Material/JERARQUIA.jpg "Jerarquia"
+[herenciaS]: Material/HERENCIASIMPLE.jpg "Herencia Simple"
+[herenciaM]: Material/HERENCIAMULTIPLE.jpg "Herencia Multiple"
