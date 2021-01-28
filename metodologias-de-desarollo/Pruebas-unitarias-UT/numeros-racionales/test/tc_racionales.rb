@@ -16,4 +16,9 @@ class TestRacionaes < Test::Unit::TestCase
     assert(@r1)
     assert_equal("1/2", @r1.to_s)
   end
+
+  def test_operciones
+
+    assert_equal("10/8", (@r1 + @r2).to_s)
+  end
 end
