@@ -1,15 +1,5 @@
 # PROGRAMACIÓN FUNCIONAL
 
-* Ruby no es un lenguaje funcional, sin embargo, se puede simular las características del paradigma, por ejemplo, mediante el uso de bloques.
-
-	* ***Bloques:*** Trozo de código encerrado entre **{ . . . }** o entre **do ... end**  (si se trata de varias líneas).
-
-* Para que las estructuras **{ . . . }** o **do ... end** sean consideras bloques, tienen que tener la invocación de un método:
-
-	* nombre_metodo()**{ . . . }**
-
-	* nombre_metodo()**do ... end**
-
 * Características de la programación funcional:
 
 	* Solo se trabaja con constantes. Cuando se le asigna un valor a una "variable" ese valor no cambia nunca. (En Ruby se simulará este comportamiento).
@@ -25,6 +15,16 @@
 	* ***Evaluación perezosa:*** Retarda la invocación a una función hasta que no haga falta ese dato o ese valor.
 
 	* ***Currying:*** Transformación de una función que tiene múltiples argumentos en una función que solo tiene un argumento.
+
+* Ruby no es un lenguaje funcional, sin embargo, se puede simular las características del paradigma, por ejemplo, mediante el uso de bloques.
+
+	* ***Bloques:*** Trozo de código encerrado entre **{ . . . }** o entre **do ... end**  (si se trata de varias líneas).
+
+* Para que las estructuras **{ . . . }** o **do ... end** sean consideras bloques, tienen que tener la invocación de un método:
+
+	* nombre_metodo()**{ . . . }**
+
+	* nombre_metodo()**do ... end**
 
 * ***NOTA: Hay que tener en cuenta que en Ruby los bloques no se consideran objetos, por lo que no se pueden pasar como argumento ni  devolver como resultado.***
 
